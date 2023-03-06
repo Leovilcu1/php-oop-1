@@ -34,7 +34,7 @@ class Movie{
 
         foreach($this->genere as $singleGenere){
             echo "<h1>";
-            echo $singleGenere;
+            echo $singleGenere->name;
             echo "</h1>";
         }
         echo "<h1>";
